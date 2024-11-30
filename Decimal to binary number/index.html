@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decimal to Binary Converter</title>
+    <link rel="stylesheet" href="./index.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Decimal to Binary</h1>
+        
+        <div class="input-group">
+            <label for="decimal">Enter Decimal Number:</label>
+            <input type="number" id="decimal" placeholder="Enter a number">
+            <div class="error" id="error">Please enter a valid number</div>
+        </div>
+
+        <button onclick="convertToBinary()">Convert</button>
+
+        <div class="result-container">
+            <div class="result" id="result">Binary will appear here</div>
+            <div class="steps" id="steps"></div>
+        </div>
+    </div>
+
+
+</body>
+<script src="./index.js"></script>
+</html>
